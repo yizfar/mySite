@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    window.onload = () => {
+      let foot = new Footer();
+      foot.render();
+    }
+
+    class Footer{
+      // כמו שורה 18 ניתן להגדיר כך מאפיינים
+      counter = 99;
+      constructor(){
+        //this.counter = 99
+      }
+
+      render(){
+        alert(this.counter)
+      }
+    }
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
